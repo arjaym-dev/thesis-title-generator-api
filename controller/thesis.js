@@ -8,7 +8,7 @@ const GenerateTitleController = async (req, res) => {
   const thesis = Thesis[thesisIndex]
 
   res.status(200).send({
-    data: thesis,
+    thesis,
   })
 }
 
