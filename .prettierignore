@@ -1,0 +1,10 @@
+#ignore artifact !! Choose what file to be not affected of prettier
+
+.prettierrc.json
+build
+coverage
+node_modules
+
+package-lock.json
+package.json
+
